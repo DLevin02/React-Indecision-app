@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add live-server babel-cli@6.24.1
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:50:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+
+npm manifest: 
+  {
+    "name": "first-react-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Drew Levin",
+    "license": "MIT",
+    "dependencies": {
+      "babel-preset-env": "1.5.2",
+      "babel-preset-react": "6.24.1"
+    },
+    "repository": "https://github.com/DLevin02/React-Indecision-app.git"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
